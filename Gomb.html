@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sok sikert :}</title>
+    <link rel="stylesheet" href="csscss.css">
+    <style>
+        body {
+            text-align: center;
+            margin-top: 100px;
+        }
+        #button {
+            padding: 15px 25px;
+            font-size: 15px;
+            position: absolute;
+        }
+        a {
+    color:  black;
+    text-decoration: none;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Kattints a <a href="gratu.html">g</a>ombra hogy tovább juss!</h1>
+    <img src="Gomb.jpg.png" id="button">
+
+    <script>
+        const button = document.getElementById("button");
+
+        button.addEventListener("mouseover", function () {
+            const x = Math.random() * (window.innerWidth - button.offsetWidth);
+            const y = Math.random() * (window.innerHeight - button.offsetHeight);
+            button.style.left = x + "px";
+            button.style.top = y + "px";
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-image: url(gartu.png);
+}
+h1{
+    text-align: center;
+    margin-top: 23%;
+    font-size: 60px;
+        font-family: 'Comfortaa', cursive;;
+        text-shadow:
+        -2px -2px 0 #ee43e0, 
+        2px -2px 0 #f11a1a, 
+        -2px 2px 0 #000, 
+        2px 2px 0 #d0f01e;
+    
+}
+img{
+    height: 50px;
+    margin-left: 46px;
+}
